@@ -2,24 +2,22 @@
 
 Drop Vanshika's artwork photos in this folder.
 
-For the three starter pieces, save the photos here with these filenames:
+The filename of each photo doesn't matter &mdash; what matters is that the
+filename you upload here matches the `image` field of its entry in
+`../gallery.json`.
 
-- `octopus.jpg` &mdash; the black-marker octopus with eight tentacles
-- `brown-friend.jpg` &mdash; the brown round-faced character with white eyes
-- `robot-buddy.jpg` &mdash; the robot built piece by piece
+## Adding a new piece
 
-These names match the entries in `../gallery.json`.
-
-## Adding a new piece later
-
-1. Save the photo here (JPG or PNG works best; keep file size under ~2 MB if you can).
-2. Open `../gallery.json` and add a new entry at the top:
+1. Upload the photo here through GitHub's "Add file &rarr; Upload files" button.
+   Whatever filename your phone or iPad gives it (e.g. `IMG_1234.jpeg`) is fine.
+2. Open `../gallery.json` and add a new entry at the top, pointing at that
+   exact filename:
    ```json
    {
      "title": "My new drawing",
-     "image": "images/my-new-drawing.jpg",
+     "image": "images/IMG_1234.jpeg",
      "date": "2026-06",
      "notes": "A short description."
    }
    ```
-3. Commit and push &mdash; GitHub Pages will redeploy automatically.
+3. Commit. GitHub Pages will redeploy automatically.

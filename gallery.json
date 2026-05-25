@@ -1,20 +1,20 @@
 [
   {
+    "title": "Robot Buddy",
+    "image": "images/IMG_0815.jpeg",
+    "date": "2026-05",
+    "notes": "A friendly robot built piece by piece &mdash; hat, eyes, arms, body, legs and shoes."
+  },
+  {
     "title": "The Curious Octopus",
-    "image": "images/octopus.jpg",
+    "image": "images/IMG_0814.jpeg",
     "date": "2026-05",
     "notes": "Eight wiggly tentacles and two big shiny eyes, drawn in black marker."
   },
   {
     "title": "Little Brown Friend",
-    "image": "images/brown-friend.jpg",
+    "image": "images/IMG_0797.jpeg",
     "date": "2026-05",
     "notes": "A round chocolate-brown face with bright white eyes and a spiky hairdo."
-  },
-  {
-    "title": "Robot Buddy",
-    "image": "images/robot-buddy.jpg",
-    "date": "2026-05",
-    "notes": "A friendly robot built piece by piece &mdash; hat, eyes, arms, body, legs and shoes."
   }
 ]
