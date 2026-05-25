@@ -1,0 +1,52 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Creations of Vanshika</title>
+    <meta name="description" content="A growing gallery of artwork by Vanshika." />
+    <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Ctext y='52' font-size='52'%3E%F0%9F%8E%A8%3C/text%3E%3C/svg%3E" />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="header-inner">
+        <h1 class="site-title">Creations of Vanshika</h1>
+        <p class="site-tagline">A little gallery for a big imagination.</p>
+      </div>
+      <div class="header-blob" aria-hidden="true"></div>
+    </header>
+
+    <main>
+      <section class="intro">
+        <p>
+          Welcome! This is Vanshika's art corner. Each drawing here was made by
+          hand, with lots of focus and a little bit of magic. New pieces will
+          show up as she makes them &mdash; come back often.
+        </p>
+        <p class="counter"><span id="art-count">0</span> creations and counting</p>
+      </section>
+
+      <section class="gallery" id="gallery" aria-label="Artwork gallery">
+        <!-- Cards are inserted by script.js from gallery.json -->
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <p>Made with love for Vanshika &middot; <span id="year"></span></p>
+    </footer>
+
+    <!-- Lightbox -->
+    <div class="lightbox" id="lightbox" hidden>
+      <button class="lightbox-close" id="lightbox-close" aria-label="Close">&times;</button>
+      <button class="lightbox-nav lightbox-prev" id="lightbox-prev" aria-label="Previous">&#10094;</button>
+      <figure class="lightbox-figure">
+        <img id="lightbox-img" alt="" />
+        <figcaption id="lightbox-caption"></figcaption>
+      </figure>
+      <button class="lightbox-nav lightbox-next" id="lightbox-next" aria-label="Next">&#10095;</button>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
